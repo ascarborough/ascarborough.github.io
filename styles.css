@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rokkitt');
 
-
 body {
     font-family: 'Rokkitt', serif;
     background: 
@@ -42,20 +41,20 @@ img:hover {
 
 .education {
   background: rgba(255,255,255,0.65);
-  float: left;
-  width: 45%;
+  width: 90%;
   padding: 10px;
   border-radius: 25px;
   border: 5px double gray;
+  margin-top: 10px;
 }
 
 .experience {
   background: rgba(255,255,255,0.65);
-  float: right;
-  width: 45%;
+  width: 90%;
   padding: 10px;
   border-radius: 25px;
   border: 5px double gray;
+  margin-top: 10px;
 }
 
 h1 {
@@ -98,11 +97,29 @@ li a:hover {
   margin-left: 50px;
 }
 
-
 /* Mobile: 320px = 20em */
-@media screen and (min-width: 20em) { 
+@media screen and (min-width: 35em) { 
   
-  .experience, .education {
-
+  .education {
+    float: right;
+    width: 45%;
+    display: inline-block;
   }
+  
+  .experience {
+    float: left;
+    width: 45%;
+    display: inline-block;
+  }
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+
 }
