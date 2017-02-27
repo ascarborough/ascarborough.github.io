@@ -39,7 +39,7 @@ img:hover {
   padding: 10px;
 }
 
-.education {
+.education, .moreinfo, .intro {
   background: rgba(255,255,255,0.65);
   width: 90%;
   padding: 10px;
