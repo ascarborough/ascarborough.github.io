@@ -29,7 +29,7 @@ img:hover {
 }
 
 .about:hover {
-  transform: scale(1.5);
+  transform: scale(0.5);
 }
 .profile {
    background: rgba(255,255,255,0.65);
