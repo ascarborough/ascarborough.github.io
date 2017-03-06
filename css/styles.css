@@ -68,14 +68,14 @@ h2, h3 {
 	text-align: center; 
 }
 
-.sociallinks img {
+.sociallinks a {
 	border-radius: 50%;
 	width: 80px; 
 	text-decoration: none; 
 	border: 0;
 }
 
-.socaillinks:hover img {
+.socaillinks:hover a {
 	transform: scale(1.2);
 }
 
