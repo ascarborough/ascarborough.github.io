@@ -75,6 +75,7 @@ h2, h3 {
 .sociallinks img {
 	border-radius: 50%;
 	width: 70px; 
+	text-decoration: none; 
 }
 
 /* Top nav bar styling */
