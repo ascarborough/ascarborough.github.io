@@ -31,7 +31,8 @@ img:hover {
 .about:hover {
   transform: scale(1);
 }
-.profile {
+
+.profile, .sociallinks {
    background: rgba(255,255,255,0.65);
    border-radius: 25px;
   border: 5px double gray;
