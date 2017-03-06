@@ -79,6 +79,10 @@ h2, h3 {
 	border: 0;
 }
 
+.socaillinks img:hover {
+	transform: scale(1.1)
+}
+
 /* Top nav bar styling */
 ul {
     list-style-type: none;
