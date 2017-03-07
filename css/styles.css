@@ -37,6 +37,11 @@ img:hover {
   padding: 10px;
 }
 
+.intro {
+ display: flex; 
+ justify-content: center;
+}
+
 .education, .moreinfo, .skills {
   background: rgba(255,255,255,0.65);
   width: 90%;
