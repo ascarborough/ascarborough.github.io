@@ -13,6 +13,7 @@ body {
     /* background image */
 url("../img/eight_horns.png");
   background-attachment: fixed;
+ overflow-x: hidden; 
 }
 
 img {
