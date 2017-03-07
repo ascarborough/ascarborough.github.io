@@ -44,7 +44,9 @@ img:hover {
   border: 5px double gray;
   margin-top: 10px;
 }
-
+.firstpic {
+ border-radius: 50%;
+}
 .experience {
   background: rgba(255,255,255,0.65);
   width: 90%;
