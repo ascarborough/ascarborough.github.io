@@ -80,7 +80,7 @@ justify-content: center;
 }
 
 .first img {
-width: 40%; 
+width: 35%; 
 border-radius: 50%;
 border: 3px solid gray; 
 }
@@ -158,7 +158,7 @@ li a:hover {
 
 /* Mobile: 320px = 20em */
 @media screen and (min-width: 35em) { 
-  
+  /* 
   .education {
     float: right;
     width: 45%;
@@ -179,7 +179,7 @@ li a:hover {
   padding: 10px;
 }
 }
-
+*/
 /* Tablet:  768px = 160em */
 @media screen and (min-width: 48em)  {
 
