@@ -16,6 +16,10 @@ url("../img/eight_horns.png");
  overflow-x: hidden; 
 }
 
+wrapper {
+	width: 95%
+}
+
 img {
   width: 15%;
   margin: 10px;
