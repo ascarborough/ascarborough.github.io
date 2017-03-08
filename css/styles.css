@@ -20,7 +20,7 @@ wrapper {
 	width: 95%
 }
 
-img {
+.profile img {
   width: 15%;
   margin: 10px;
   border-radius: 25px;
@@ -55,7 +55,8 @@ img:hover {
   margin-top: 10px;
 }
 
-.first {
+.first img {
+width: 50%; 
  border-radius: 50%;
 text-align: center;  
 }
