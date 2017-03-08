@@ -39,6 +39,7 @@ img:hover {
   border: 5px double gray;
   margin: 10px;
   padding: 10px;
+  width: 90%;
 }
 
 .intro {
@@ -53,6 +54,23 @@ img:hover {
   border-radius: 25px;
   border: 5px double gray;
   margin-top: 10px;
+  margin: 10px;
+}
+
+.education:hover {
+  background: white;
+}
+
+.experience:hover {
+  background: white;
+}
+
+.profile:hover {
+  background: white;
+}
+
+.skills:hover {
+  background: white;
 }
 
 .first img {
@@ -68,6 +86,7 @@ text-align: center;
   border-radius: 25px;
   border: 5px double gray;
   margin-top: 10px;
+  margin: 10px;
 }
 
 h1 {
