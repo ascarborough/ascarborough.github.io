@@ -55,10 +55,9 @@ img:hover {
   margin-top: 10px;
 }
 
-.firstpic {
+.first {
  border-radius: 50%;
-text-align: center; 
-width: 200px; 
+text-align: center;  
 }
 
 .experience {
