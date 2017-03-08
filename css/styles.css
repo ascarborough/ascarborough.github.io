@@ -73,10 +73,16 @@ img:hover {
   background: white;
 }
 
+.first {
+display: flex;
+align-items: center; 
+justify-content: center; 
+}
+
 .first img {
-width: 50%; 
- border-radius: 50%;
-text-align: center;  
+width: 40%; 
+border-radius: 50%;
+border: 3px solid gray; 
 }
 
 .experience {
