@@ -28,6 +28,7 @@ body {
   border-radius: 50%;
   border: 5px solid gray;
   transition: filter 1.5s;
+  margin-top: 100px; 
 }
 
 .welcome:hover img {
