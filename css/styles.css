@@ -24,11 +24,11 @@ body {
 }
 
 .welcome img {
-  width: 250px;
+  width: 300px;
   border-radius: 50%;
   border: 5px solid gray;
   transition: filter 1.5s;
-  margin-top: 100px; 
+  margin-top: 150px; 
 }
 
 .welcome:hover img {
@@ -129,7 +129,7 @@ li a:hover {
 }
 
   .welcome img {
-  width: 20%;
+  width: 30%;
   float: left;
   border-radius: 50%;
   border: 5px solid gray;
