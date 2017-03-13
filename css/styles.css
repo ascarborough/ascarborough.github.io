@@ -1,108 +1,38 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Acme|Josefin+Sans');
 
-@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+@import url('https://fonts.googleapis.com/css?family=Acme|Alice|Josefin+Sans');
+
+h1, h2, h3, h4 {
+  font-family: 'Acme', sans-serif;
+}
+
+p {
+  font-family: 'Alice', serif;
+}
 
 body {
-    font-family: 'Rokkitt', serif;
-    background: 
-    /* gradient tan-to-pink */ 
-    linear-gradient(
-      rgba(30, 0, 0, 0.35), 
-      rgba(255, 0, 0, 0.45)
-    ),
-    /* background image */
-url("../img/eight_horns.png");
-  background-attachment: fixed;
- overflow-x: hidden; 
+  background-image: url("floral2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow-x: hidden; 
+   background-color: #EA9EA44D;
 }
 
-wrapper {
-	width: 95%
+.welcome {
+	margin: 10px;
+	padding: 10px;
 }
 
-.profile img {
-  width: 15%;
-  margin: 10px;
-  border-radius: 25px;
-  border: 3px dotted gray;
-}
-
-img:hover {
-	opacity: .5;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-
-.profile {
-   background: rgba(255,255,255,0.65);
-   border-radius: 25px;
-  border: 5px double gray;
-  margin: 10px;
-  padding: 10px;
-  width: 90%;
-}
-
-.intro {
- display: flex; 
- justify-content: center;
-}
-
-.education, .moreinfo, .skills {
-  background: rgba(255,255,255,0.65);
-  width: 90%;
-  padding: 10px;
-  border-radius: 25px;
-  border: 5px double gray;
-  margin-top: 10px;
-  margin: 10px;
-}
-
-.education:hover {
-  background: white;
-}
-
-.experience:hover {
-  background: white;
-}
-
-.profile:hover {
-  background: white;
-}
-
-.skills:hover {
-  background: white;
-}
-
-.first {
-display: flex;
-align-items: center; 
-justify-content: center; 
-}
-
-.first img {
-width: 35%; 
-border-radius: 50%;
-border: 3px solid gray; 
-}
-
-.experience {
-  background: rgba(255,255,255,0.65);
-  width: 90%;
-  padding: 10px;
-  border-radius: 25px;
-  border: 5px double gray;
-  margin-top: 10px;
-  margin: 10px;
+.welcome img {
+  width: 250px;
+  border-radius: 50%;
+  border: 5px solid gray;
 }
 
 h1 {
+  font-size: 2.5em;
+  text-shadow: 2px 2px white;
   text-align: center;
-  color: black;
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-h2, h3 {
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 .sociallinks {
@@ -117,24 +47,39 @@ h2, h3 {
 }
 
 .socaillinks:hover a {
-	transform: scale(1.2);
+	transform: scale(1.5);
+}
+
+.indent {
+  margin-left: 50px;
 }
 
 .tele {
 	text-align: center; 
 }
 
-/* Top nav bar styling */
+.name {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 1.8em;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: lightcoral;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 li {
     float: left;
+    display: flex; 
+    font-size: 1.2em;
+   margin-top: 20px;
+   font-weight: bold;
 }
 
 li a {
@@ -146,33 +91,66 @@ li a {
 }
 
 li a:hover {
-    background-color: gray;
+    background-color: rgba(189, 86, 100, 0.66);
     transition: background 0.5s;
-}
-
-/* End of nav bar styling */
-
-.indent {
-  margin-left: 50px;
 }
 
 /* Mobile: 320px = 20em */
 @media screen and (min-width: 35em) { 
-
+  
   .here {
   margin-left: 350px;
     margin-top: 150px;
 }
 
-  .first img {
-  width: 40%;
+  .welcome img {
+  width: 20%;
   float: left;
   border-radius: 50%;
   border: 5px solid gray;
   margin: 20px;
+  box-shadow: 3px 3px 2px 2px gray;
+}
+  .name h1 {
+   text-shadow: 3px 2px white,
+     4px 3px white;
 }
 
- 	
+.name {
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 1.8em;
+}
+    .pinfo {
+  margin-top: 160px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px; 
+  padding: 10px;
+  border-left: 4px solid gray;
+}
+  
+.education, .experience, .skills {
+  margin: 20px;
+  padding: 10px;
+  border-left: 4px solid gray;
+}
+
+.pinfo:hover, .education:hover, .experience:hover, .skills:hover {
+  border-left: 5px dotted #C32933;
+   background: rgba(255,255,255,0.75);
+}
+	
+.tele:hover, .here:hover {
+	   background: rgba(255,255,255,0.75);
+	   border-radius: 25px;
+	}
+
+.about {
+  text-align: center;
+  margin-top: 100px;
+}
+
 }
 
 /* Tablet:  768px = 160em */
