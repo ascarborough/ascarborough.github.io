@@ -77,9 +77,10 @@ h1:hover {
     bottom:0;
     right:0;
     width:100%;
-    background: #a488a5;
-    border:1px solid #a488a5;
+    background: rgba(164, 136, 165, 0.74);
 }
+
+/*   border:1px solid #a488a5; */
 
 .name {
   margin-top: 10px;
