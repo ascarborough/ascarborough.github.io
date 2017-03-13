@@ -33,6 +33,12 @@ h1 {
   font-size: 2.5em;
   text-shadow: 2px 2px white;
   text-align: center;
+  transition: color 1s;
+}
+
+h1:hover {
+  color: #d44f6b;
+  transition: color 1s;
 }
 
 .sociallinks {
