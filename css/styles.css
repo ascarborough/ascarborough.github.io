@@ -99,6 +99,7 @@ li a {
 li a:hover {
     background-color: rgba(189, 86, 100, 0.66);
     transition: background 0.5s;
+    color: white; 
 }
 
 /* Mobile: 320px = 20em */
