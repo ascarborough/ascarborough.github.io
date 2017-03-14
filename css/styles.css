@@ -198,7 +198,10 @@ li a:hover {
   float: left;
   border-radius: 50%;
   border: 5px solid gray;
-  margin: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px; 
+  margin-top: 150px; 
   box-shadow: 3px 3px 2px 2px gray;
 }
   .name h1 {
