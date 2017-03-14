@@ -234,7 +234,7 @@ li a:hover {
    background: rgba(255,255,255,0.75);
 }
 	
-.tele:hover, .here:hover {
+.here:hover {
 	   background: rgba(255,255,255,0.75);
 	   border-radius: 25px;
 	}
