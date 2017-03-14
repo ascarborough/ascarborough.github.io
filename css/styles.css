@@ -142,7 +142,7 @@ textarea:focus {
 }
 
 input[type="submit"]:hover {
-  background: orange;
+  background: #a1d1c4;
 }
 
 /*   border:1px solid #a488a5; */
