@@ -89,6 +89,7 @@ form {
   padding: 1em;
   width: 400px;
   border-radius: 25px;
+  margin: 0 auto; 
 }
 
 form h1 {
