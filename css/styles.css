@@ -186,6 +186,7 @@ figure {
 /* Specific Gallery Styling. Have Fun! */
 figure img {
 border: 2px solid gray;
+width: 200px;
 }
 
 figure p {
