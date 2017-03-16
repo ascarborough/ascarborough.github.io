@@ -349,6 +349,10 @@ li a:hover {
   border-left: 5px dotted #C32933;
 }
 	
+.pinfo:hover h2, .education:hover h2, .experience:hover h2, .skills:hover h2 {
+	color: #C32933;
+	}
+	
 .here:hover {
 	   background: rgba(255,255,255,0.75);
 	   border-radius: 25px;
