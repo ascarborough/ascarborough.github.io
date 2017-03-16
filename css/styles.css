@@ -20,6 +20,17 @@ body {
    background-color: lavender;
 }
 
+/* Link Styling */
+
+a:link {
+	color: #dc6075;
+	text-decoration: none; 
+}
+
+a:hover {
+	color: #8d5e80;
+}
+
 /* Home Page Styling */
 
 .welcome {
