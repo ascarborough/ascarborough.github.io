@@ -4,6 +4,8 @@
  
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 
+@import url('https://fonts.googleapis.com/css?family=Antic+Slab|Courgette|Josefin+Slab');
+
 /* Basic Styling  */
 
 h1, h2, h3, h4 {
@@ -11,7 +13,7 @@ h1, h2, h3, h4 {
 }
 
 p {
-  font-family: 'Alice', serif;
+  font-family: 'Antic Slab', serif;
 }
 
 body {
@@ -216,7 +218,7 @@ figure:hover img {
 
 figure p {
   color: gray;
-  font-family: 'Alice', serif;
+  font-family: 'Antic Slab', serif;
 }
 
 /* Lightbox Overlay */
