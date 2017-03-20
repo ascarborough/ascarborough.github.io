@@ -21,7 +21,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   overflow-x: hidden; 
-   background-color: #ffd8e3;
+   background-color: rgba(255, 216, 227, 0.36);
 }
 
 /* Link Styling */
