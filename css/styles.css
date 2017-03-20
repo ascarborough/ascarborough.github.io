@@ -8,11 +8,11 @@
 
 /* Basic Styling  */
 
-h1, h2, {
+h1, h2, h3 {
   font-family: 'Courgette', cursive;
 }
 
-h3 {
+h4 {
 	text-align: center;
 	font-family: 'Antic Slab', serif;
 }
