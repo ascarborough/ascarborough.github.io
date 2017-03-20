@@ -353,10 +353,6 @@ li a:hover {
 	color: #C32933;
 	}
 	
-.here:hover {
-	   background: rgba(255,255,255,0.75);
-	   border-radius: 25px;
-	}
 
 .about {
   text-align: center;
