@@ -12,6 +12,10 @@ h1, h2, h3, h4 {
   font-family: 'Courgette', cursive;
 }
 
+h3 {
+	text-align: center;
+}
+
 p {
   font-family: 'Antic Slab', serif;
 }
