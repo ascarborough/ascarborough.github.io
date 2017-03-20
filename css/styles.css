@@ -8,12 +8,13 @@
 
 /* Basic Styling  */
 
-h1, h2, h3, h4 {
+h1, h2, {
   font-family: 'Courgette', cursive;
 }
 
 h3 {
 	text-align: center;
+	font-family: 'Antic Slab', serif;
 }
 
 p {
@@ -220,7 +221,7 @@ figure:hover img {
   transition: transform .5s;
 }
 
-figure p {
+figure {
   color: gray;
   font-family: 'Antic Slab', serif;
 }
