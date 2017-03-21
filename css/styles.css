@@ -160,6 +160,11 @@ figure a:visited {
   color: gray;
 }
 
+
+figure h4 {
+  font-size: 1.2em;
+}
+
 /* Portfolio Styling */
 /* Global */
 * {
