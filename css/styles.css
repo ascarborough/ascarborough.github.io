@@ -99,7 +99,7 @@ li a:hover {
   float: left;
   border: 3px solid #53246f;
   margin: 15px;
-  box-shadow: 2px 3px 5px 5px black;
+  box-shadow: 2px 3px 5px 5px gray;
 }
 
 .here h2 {
