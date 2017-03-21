@@ -102,6 +102,10 @@ li a:hover {
   box-shadow: 2px 3px 5px 5px black;
 }
 
+.here h2 {
+  color: black;
+}
+
 /* Copyright Styling */
 .terms {
     display:block;
