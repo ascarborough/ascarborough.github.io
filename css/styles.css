@@ -9,10 +9,16 @@ body {
   background-size:cover;
 }
 
-h1, h2, h3, h4 {
+h1 {
   color: white;
   font-weight: normal;
   font-family: 'Dosis', sans-serif;
+}
+
+h2, h3, h4 {
+  color: black; 
+  font-weight: normal;
+  font-family: 'Dosis', sans-serif;	
 }
 
 p {
