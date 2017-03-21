@@ -147,6 +147,21 @@ h1 {
 
 /* Link Styling */
 
+
+.here a:link {
+  color: #657c4e;
+  text-decoration: none;
+}
+
+.here a:hover {
+  color: violet;
+}
+
+.here a:visited {
+  color: gray;
+}
+
+
 figure a:link {
   color: #657c4e;
   text-decoration: none;
