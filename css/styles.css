@@ -145,6 +145,21 @@ h1 {
   color: #53246f;
 }
 
+/* Link Styling */
+
+figure a:link {
+  color: #657c4e;
+  text-decoration: none;
+}
+
+figure a:hover {
+  color: violet;
+}
+
+figure a:visited {
+  color: gray;
+}
+
 /* Portfolio Styling */
 /* Global */
 * {
@@ -183,6 +198,7 @@ transition: transform .5s;
 figure:hover {
   background: #53246f;
   transition: background 1s;
+  color: white;
 }
 
 figure:hover img {
