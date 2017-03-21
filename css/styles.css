@@ -1,124 +1,229 @@
-@import url('https://fonts.googleapis.com/css?family=Acme|Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Vollkorn');
 
-@import url('https://fonts.googleapis.com/css?family=Acme|Alice|Josefin+Sans');
- 
-@import url('https://fonts.googleapis.com/css?family=Courgette');
-
-@import url('https://fonts.googleapis.com/css?family=Antic+Slab|Courgette|Josefin+Slab');
-
-/* Basic Styling  */
-
-h1, h2, h3 {
-  font-family: 'Courgette', cursive;
+/* General Styling */
+body {
+  background-image: url("bgimage.jpeg"); 
+  background-attachment:fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
-h4 {
-	text-align: center;
-	font-family: 'Antic Slab', serif;
+h1, h2, h3, h4 {
+  color: white;
+  font-weight: normal;
+  font-family: 'Dosis', sans-serif;
 }
 
 p {
-  font-family: 'Antic Slab', serif;
+  font-family: 'Vollkorn', serif;
 }
 
-body {
-  background-image: url("../img/floral.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  overflow-x: hidden; 
-   background-color: rgba(255, 216, 227, 0.36);
+/* Navigation Bar Styling */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+   display: flex;
+   justify-content: right;
 }
 
-/* Link Styling */
-
-a:link {
-	color: #dc6075;
-	text-decoration: none; 
+li {
+    font-family: 'Vollkorn', serif;
+    float: left;
+    display: flex; 
+    font-size: 1.2em;
+   margin-top: 20px;
+  margin-right: 10px;
 }
 
-a:hover {
-	color: #8d5e80;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
 }
 
-/* Home Page Styling */
-
-.welcome {
-	margin: 10px;
-	padding: 10px;
+li a:hover {
+    background-color: rgba(100, 28, 126, 0.56);
+    transition: background 0.5s;
+    border-radius: 10px;
 }
 
-.welcome img {
-  width: 300px;
-  border-radius: 50%;
-  border: 5px solid gray;
-  transition: filter 1.5s;
-  margin-top: 100px; 
+/* Home Styling */
+  .here {
+  background: rgba(255, 255, 255, 0.83);
+  color: black;
+  padding: 10px;
+  border-radius: 25px;
+  width: 80%;  
 }
 
-.welcome:hover img {
-  filter: grayscale(100%);
-  transition: filter 1.5s;
-}
 
-h1 {
-  font-size: 2.5em;
-  text-shadow: 2px 2px white;
+.arrow a {
+  font-size: 3em;
+  color: white;
   text-align: center;
+  text-decoration: none;
   transition: color 1s;
 }
 
-h1:hover {
-  color: #886584;
-  transition: color 1s;
+.arrow:hover a {
+  font-size: 3em;
+  color: #53246f;
+  text-align: center;
+  text-decoration: none;
+    transition: color 1s;
 }
 
-/* Contact Page Styling */
-
-.sociallinks {
-	text-align: center; 
+.arrow {
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
 
-.sociallinks a {
-	border-radius: 50%;
-	width: 80px; 
-	text-decoration: none; 
-	border: 0;
-}
-
-.socaillinks:hover a {
-	transform: scale(1.5);
-}
-
-.indent {
-  margin-left: 50px;
-}
-
-.tele {
-	text-align: center; 
+.here img {
+  width: 250px;
+  border-radius: 50%;
+  float: left;
+  border: 3px solid #53246f;
+  margin: 15px;
+  box-shadow: 2px 3px 5px 5px black;
 }
 
 /* Copyright Styling */
-
- div.terms{
+.terms {
     display:block;
     position: fixed;
     bottom:0;
     right:0;
     width:100%;
-    background: rgba(164, 136, 165, 0.74);
+    background: rgba(123, 147, 108, 0.75);
 }
 
-/* Attribute Selection */
+/* Resume Styling */
+.resume {
+  background: rgba(255, 255, 255, 0.83);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 25px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.pinfo, .education, .experience, .skills {
+  border-left: 3px solid gray;
+  padding: 10px;
+  margin: 15px;
+}
+
+.pinfo:hover, .education:hover, .experience:hover, .skills:hover {
+  border-left: 4px dotted #53246f; 
+}
+
+.pinfo:hover h2, .education:hover h2, .experience:hover h2, .skills:hover h2 {
+  color: #53246f;
+}
+
+/* Portfolio Styling */
+/* Global */
+* {
+  box-sizing: border-box;
+}
+
+/* Layout with Flexbox */
+.gallery {
+ display: flex;
+ flex-flow: row wrap;
+}
+
+figure {
+  background: rgba(100, 28, 126, 0.56);
+  /* Note: Figures have default 1em margin. Optionally override. */
+  padding: 1em;
+  /* Set `flex-basis` to any value */
+  flex: 1 0 300px;
+  border: 3px solid gray;
+  
+  /* Child & Also Parent   */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  transition: background 1s;
+}
+
+/* Specific Gallery Styling. Have Fun! */
+figure img {
+border: 2px solid gray;
+width: 200px;
+transition: transform .5s;
+}
+
+figure:hover {
+  background: #53246f;
+  transition: background 1s;
+}
+
+figure:hover img {
+  transform: rotate(5.5deg);
+  transition: transform .5s;
+}
+
+figure {
+  color: black;
+  font-family: 'Vollkorn', serif;
+}
+
+/* Lightbox Overlay */
+/* hide  */
+.overlay {
+  display: none;
+/* Overlay Styling   */
+  background:rgba(75,0,25,.85);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+/* show */
+.overlay:target {
+  display: block;
+  /* Flexbox Vertical & Horizontal Centering */
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  justify-content: center;
+  align-items: center;  
+    
+}
+
+/* Close Button  */
+.overlay a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
 /* Email Form Styling */
-
-@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
-
 form {
-  background: #90a372;
+  background: rgba(100, 28, 126, 0.75);
   padding: 1em;
   width: 400px;
   border-radius: 25px;
   margin: 0 auto; 
+  margin-bottom: 150px;
 }
 
 form h1 {
@@ -154,7 +259,7 @@ textarea {
 
 input[type="submit"] {
   font-size: 1.5em;
-  background: #d11c39;
+  background: #657c4e;
   display: block;
   margin: 0 auto;
   border-radius: 10px;
@@ -163,212 +268,72 @@ input[type="submit"] {
 input[type="text"]:focus {
   /*  override  */
   outline: 0;
-  background: #fed6dd;
+  background: lavender;
 }
 
 textarea:focus {
-  background: #fed6dd;
+  background: lavender;
 }
 
 input[type="submit"]:hover {
-  background: #a1d1c4;
+  background: #53246f;
 }
 
-/*   border:1px solid #a488a5; */
+/* Contact Page Styling */
 
-/* PORTFOLIO STYLING */
-/* Global */
-* {
-  box-sizing: border-box;
+.sociallinks {
+	text-align: center; 
 }
 
-/* Layout with Flexbox */
-.gallery {
- display: flex;
- flex-flow: row wrap;
+.sociallinks a {
+	border-radius: 50%;
+	width: 80px; 
+	text-decoration: none; 
+	border: 0;
 }
 
-figure {
-  background: #a3d1c4;
-  /* Note: Figures have default 1em margin. Optionally override. */
-  padding: 1em;
-  /* Set `flex-basis` to any value */
-  flex: 1 0 300px;
-  border: 3px solid gray;
-  
-  /* Child & Also Parent   */
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
-  transition: background 1s;
+.socaillinks:hover a {
+	transform: scale(1.5);
 }
 
-/* Specific Gallery Styling. Have Fun! */
-figure img {
-border: 2px solid gray;
-width: 200px;
-transition: transform .5s;
+.indent {
+  margin-left: 50px;
 }
 
-figure:hover {
-  background: #d8b3d2;
-  transition: background 1s;
+.tele {
+	text-align: center; 
 }
 
-figure:hover img {
-  transform: rotate(5.5deg);
-  transition: transform .5s;
-}
 
-figure {
-  color: black;
-  font-family: 'Antic Slab', serif;
-}
-
-/* Lightbox Overlay */
-/* hide  */
-.overlay {
-  display: none;
-/* Overlay Styling   */
-  background:rgba(75,0,25,.85);
-  width:100%;
-  height:100%;
-  position:absolute;
-  top:0;
-  left:0;
-}
-
-/* show */
-.overlay:target {
-  display: block;
-  /* Flexbox Vertical & Horizontal Centering */
-  display: flex;
-  flex-direction: column;
-  min-height: 50vh;
-  justify-content: center;
-  align-items: center;  
-    
-}
-
-/* Close Button  */
-.overlay a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.5em;
-}
-/* ---------------------------------------------------------------------- */
-/* Home Page Styling */
-
-.name {
-  margin-top: 10px;
-  margin-left: 10px;
-  font-size: 1.8em;
-}
-
-/* Top Nav Styling */
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-li {
-    float: left;
-    display: flex; 
-    font-size: 1.2em;
-   margin-top: 20px;
-   font-weight: bold;
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 20px 20px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: rgba(189, 86, 100, 0.66);
-    transition: background 0.5s;
-    color: white; 
+.indent {
+  margin-left: 50px;
 }
 
 /* Mobile: 320px = 20em */
 @media screen and (min-width: 35em) { 
   
-/* Home Page Styling */
-	
   .here {
-  margin-left: 350px;
-    margin-top: 150px;
-}
-
-  .welcome img {
-  width: 30%;
-  float: left;
-  border-radius: 50%;
-  border: 5px solid gray;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px; 
-  margin-top: 100px; 
-  box-shadow: 3px 3px 2px 2px gray;
-}
-  .name h1 {
-   text-shadow: 3px 2px white,
-     4px 3px white;
-}
-	
-/* Sections Styling */
-
-.name {
-  margin-top: 50px;
-  margin-left: 30px;
-  font-size: 1.8em;
-}
-    .pinfo {
-  margin-top: 160px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px; 
+  margin-left: 100px;
+  margin-top: 700px;
+  margin-bottom: 300px;
+  background: rgba(255, 255, 255, 0.83);
+  color: black;
   padding: 10px;
-  border-left: 4px solid gray;
+  border-radius: 25px;
+  width: 80%;  
+}
+
+  .name {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+  font-size: 2em;
+  color: white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
   
-.education, .experience, .skills {
-  margin: 20px;
-  padding: 10px;
-  border-left: 4px solid gray;
-}
-	
-/* Hover Styling */
-
-.pinfo:hover, .education:hover, .experience:hover, .skills:hover {
-  border-left: 5px dotted #C32933;
-}
-	
-.pinfo:hover h2, .education:hover h2, .experience:hover h2, .skills:hover h2 {
-	color: #C32933;
-	}
-	
-
-.about {
-  text-align: center;
-  margin-top: 100px;
-}
-	
-.welcome:hover img {
-  filter: grayscale(100%);
-  transition: filter 1.5s;
-}
-
+  
 }
 
 /* Tablet:  768px = 160em */
