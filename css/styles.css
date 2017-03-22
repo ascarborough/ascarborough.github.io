@@ -341,10 +341,12 @@ input[type="submit"]:hover {
 	width: 80px; 
 	text-decoration: none; 
 	border: 0;
+	margin: 15px;
 }
 
-.socaillinks:hover a {
-	transform: scale(1.5);
+.sociallinks:hover img {
+	transform: scale(1.2); 
+	background-color: violet; 
 }
 
 .indent {
