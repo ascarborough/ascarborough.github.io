@@ -25,6 +25,15 @@ p {
   font-family: 'Vollkorn', serif;
 }
 
+img:hover {
+	opacity: .6;
+	transition: opacity 1s;
+}
+
+img {
+	transition: opacity 1s; 
+}
+
 /* Navigation Bar Styling */
 ul {
     list-style-type: none;
