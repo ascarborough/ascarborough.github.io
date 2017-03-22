@@ -344,9 +344,17 @@ input[type="submit"]:hover {
 	margin: 15px;
 }
 
+.sociallinks img {
+		transition: transform 1s,
+		    background-color 1s;
+}
+
 .sociallinks:hover img {
 	transform: scale(1.2); 
 	background-color: violet; 
+	border-radius: 50%; 
+	transition: transform 1s,
+		    background-color 1s;
 }
 
 .indent {
