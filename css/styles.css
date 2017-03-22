@@ -149,12 +149,12 @@ h1 {
 
 
 .here a:link {
-  color: #657c4e;
+  color: violet;
   text-decoration: none;
 }
 
 .here a:hover {
-  color: violet;
+  color: #b9d85d;
 }
 
 .here a:visited {
@@ -163,12 +163,12 @@ h1 {
 
 
 figure a:link {
-  color: #657c4e;
+  color: violet;
   text-decoration: none;
 }
 
 figure a:hover {
-  color: violet;
+  color: #b9d85d;
 }
 
 figure a:visited {
