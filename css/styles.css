@@ -72,34 +72,15 @@ li a:hover {
   .here {
   background: rgba(255, 255, 255, 0.83);
   color: black;
-  padding: 10px;
+  padding: 15px;
   border-radius: 25px;
-  width: 80%;  
+  width: 95%; 
+  margin: 0 auto;
 }
 
-
-.arrow a {
-  font-size: 3em;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  transition: color 1s;
-}
-
-.arrow:hover a {
-  font-size: 3em;
-  color: #53246f;
-  text-align: center;
-  text-decoration: none;
-    transition: color 1s;
-}
 
 .arrow {
-  margin-top: -70px;
-  font-size: 2em;
-  color: white;
-  text-align: center;
-  text-decoration: none;
+    display: none;
 }
 
 .here img {
@@ -114,6 +95,7 @@ li a:hover {
 .here h2 {
   color: black;
 }
+
 
 /* Copyright Styling */
 .terms {
@@ -131,7 +113,7 @@ li a:hover {
   margin: 10px;
   padding: 15px;
   border-radius: 25px;
-  width: 70%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -202,7 +184,7 @@ figure h4 {
 }
 
 figure {
-  background: rgba(100, 28, 126, 0.56);
+  background: #883c9c;
   /* Note: Figures have default 1em margin. Optionally override. */
   padding: 1em;
   /* Set `flex-basis` to any value */
@@ -215,6 +197,10 @@ figure {
   justify-content: space-around;
   align-items: center;
   transition: background 1s;
+}
+
+figure figcaption, figure h4 {
+    color: white;
 }
 
 /* Specific Gallery Styling. Have Fun! */
@@ -382,16 +368,42 @@ input[type="submit"]:hover {
 
 /* Mobile: 320px = 20em */
 @media screen and (min-width: 35em) { 
+    
+.arrow a {
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition: color 1s;
+}
+
+.arrow:hover a {
+  font-size: 3em;
+  color: #53246f;
+  text-align: center;
+  text-decoration: none;
+    transition: color 1s;
+}
+
+.arrow {
+ display: block;
+  margin-top: -70px;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
   
   .here {
-  margin-left: 100px;
+  margin-left: 150px;
   margin-top: 700px;
   margin-bottom: 300px;
   background: rgba(255, 255, 255, 0.83);
   color: black;
-  padding: 10px;
+  padding: 15px;
   border-radius: 25px;
   width: 80%;  
+      
 }
 
   .name {
@@ -406,7 +418,38 @@ input[type="submit"]:hover {
   margin-left: auto;
   margin-right: auto;
 }
+    
+.resume {
+  background: rgba(255, 255, 255, 0.83);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 25px;
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+}
+    
+figure {
+  background: rgba(100, 28, 126, 0.56);
+  /* Note: Figures have default 1em margin. Optionally override. */
+  padding: 1em;
+  /* Set `flex-basis` to any value */
+  flex: 1 0 300px;
+  border: 3px solid gray;
   
+  /* Child & Also Parent   */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  transition: background 1s;
+}
+  
+figure:hover {
+  background: #883c9c;
+  transition: background 1s;
+  color: white;
+}
   
 }
 
