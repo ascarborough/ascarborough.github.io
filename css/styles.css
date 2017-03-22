@@ -26,12 +26,12 @@ p {
 }
 
 img:hover {
-	opacity: .6;
-	transition: opacity 1s;
+	background-color: #657c4e;
+	transition: background-color 1s;
 }
 
 img {
-	transition: opacity 1s; 
+	transition: background-color 1s; 
 }
 
 /* Navigation Bar Styling */
