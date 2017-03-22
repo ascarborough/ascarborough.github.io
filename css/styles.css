@@ -325,6 +325,7 @@ textarea {
   margin: 0 auto 10px;
   font-family: 'Vollkorn', serif;
   font-size: 1em;
+  border-radius: 10px; 
 }
 
 input[type="submit"] {
