@@ -138,11 +138,11 @@ h1 {
 }
 
 .pinfo:hover, .education:hover, .experience:hover, .skills:hover {
-  border-left: 4px dotted #53246f; 
+  border-left: 4px dotted #883c9c; 
 }
 
 .pinfo:hover h2, .education:hover h2, .experience:hover h2, .skills:hover h2 {
-  color: #53246f;
+  color: #883c9c;
 }
 
 /* Link Styling */
@@ -216,9 +216,13 @@ transition: transform .5s;
 }
 
 figure:hover {
-  background: #53246f;
+  background: #883c9c;
   transition: background 1s;
   color: white;
+}
+
+figure:hover h4 {
+	color: white; 
 }
 
 figure:hover img {
