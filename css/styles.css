@@ -414,7 +414,7 @@ input[type="submit"]:hover {
 
 .arrow {
  display: block;
-  margin-top: -90px;
+  margin-top: -100px;
   font-size: 2em;
   color: white;
   text-align: center;
