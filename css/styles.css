@@ -345,7 +345,8 @@ input[type="submit"]:hover {
 }
 
 .sociallinks img {
-		transition: transform 1s,
+	border-radius: 50%;
+	transition: transform 1s,
 		    background-color 1s;
 }
 
