@@ -281,13 +281,9 @@ figure {
 }
 
 /* Email Form Styling */
-form {
-  background: rgba(100, 28, 126, 0.75);
-  padding: 1em;
-  width: 450px;
-  border-radius: 25px;
-  margin: 0 auto; 
-  margin-bottom: 150px;
+
+textarea {
+  width: 80%;
 }
 
 form h1 {
@@ -395,6 +391,15 @@ input[type="submit"]:hover {
 @media screen and (min-width: 35em) { 
     
 /*  Home Page Mobile Styling  */
+	
+form {
+  background: rgba(100, 28, 126, 0.75);
+  padding: 1em;
+  width: 450px;
+  border-radius: 25px;
+  margin: 0 auto; 
+  margin-bottom: 150px;
+}
     
 .arrow a {
   font-size: 3em;
