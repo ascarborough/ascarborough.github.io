@@ -410,6 +410,7 @@ li {
 }
 
 li a {
+    background-color: transparent;
     display: block;
     color: white;
     text-align: center;
