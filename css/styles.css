@@ -285,6 +285,7 @@ figure {
 form {
   background: rgba(100, 28, 126, 0.75);
   padding: 1em;
+  width: 90%;
   border-radius: 25px;
   margin: 0 auto; 
   margin-bottom: 150px;
