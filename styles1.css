@@ -11,18 +11,16 @@ body {
 
 /* Typography Styling */
 
-.white h1 {
-	color: white; 
-}
 
 h1 {
-  color: black;
+  color: white;
   font-weight: normal;
   font-family: 'Dosis', sans-serif;
   font-size: 3em;
 }
 
 h2 {
+    color: black;
     font-size: 2em;
 }
 
