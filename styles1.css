@@ -108,6 +108,25 @@ h1 {
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
 
+body {
+  background-image: url("http://www.sleephappens.com/mattresswarehouse/wp-content/uploads/2016/05/ThinkstockPhotos-479045619.jpg"); 
+  background-attachment:fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #333333; }
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
 .row {
   width: 100%;
   max-width: 1170px;
@@ -122,9 +141,9 @@ h1 {
     margin: 0; }
 
 .gallery {
-  padding: 40px 0 1000px;
+  padding: 40px 0 300px;
   position: relative;
- }
+  overflow: hidden; }
   .gallery ul {
     padding-top: 50px;
     position: relative; }
@@ -251,50 +270,12 @@ button:hover {
   background-color: violet; 
   transition: background-color 1s;
 }
-/* END */
+
 
 /* Mobile: 320px = 20em */
 @media screen and (min-width: 35em) { 
-	
-/* Navigation Bar Styling Mobile */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    width: 100%;
-   display: flex;
-   justify-content: right;
-}
 
-li {
-    font-family: 'Vollkorn', serif;
-    float: left;
-    display: flex; 
-    font-size: 1.2em;
-   margin-top: 20px;
-  margin-right: 10px;
-}
-
-li a {
-    background-color: transparent;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 20px;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-
-li a:hover {
-    background-color: rgba(100, 28, 126, 0.56);
-    transition: background 0.5s;
-    border-radius: 10px;
-}
-
-/* TEMP */
-	
-.gallery ul li {
+  .gallery ul li {
   float: left;
   margin: 0 0.87719%; 
   margin-top: 10px;
@@ -302,15 +283,15 @@ li a:hover {
   }
   
   .gallery {
-  padding: 40px 0 1000px;
+  padding: 40px 0 300px;
   position: relative;
-   }
+  overflow: hidden; }
   .gallery ul {
     padding-top: 50px;
     position: relative; }
     .gallery ul li {
       margin-bottom: 20px;
-      width: 35%;
+      width: 30%;
       position: relative;
       list-style: none; }
       .gallery ul li a {
@@ -398,19 +379,4 @@ li a:hover {
     opacity: 1;
     -webkit-transition-delay: 0.5s;
     transition-delay: 0.5s; }
-  
 }
-
-/* Tablet:  768px = 160em */
-@media screen and (min-width: 48em) and (max-width: 63.9375em) {
-    
-
-
-}
-
-/* Desktop: 1280px = 80em */
-@media screen and (min-width: 80em) { 
-
-}
-
-
