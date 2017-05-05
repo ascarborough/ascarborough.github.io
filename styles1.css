@@ -237,8 +237,8 @@ button {
 }
 
 button:hover {
-  color: #662c82; 
-  background-color: white; 
+  color: white;
+  background-color: #94ac5e; 
   transition: background-color 1s;
 }
 
