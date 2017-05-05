@@ -80,23 +80,6 @@ h1 {
   text-align: center;
 }
 
-/* Link Styling */
-
-
-.here a:link {
-  color: violet;
-  text-decoration: none;
-}
-
-.here a:hover {
-  color: #b9d85d;
-}
-
-.here a:visited {
-  color: gray;
-}
-
-
 /* TEMP STYLING FOR NEW PORT WITH JAVA  */
 
 * {
@@ -107,11 +90,6 @@ h1 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
-
-a:link {
-  color: white;
-  text-decoration: none;
-}
 
 .row {
   width: 100%;
