@@ -96,6 +96,10 @@ a:link {
   text-decoration: none;
 }
 
+a:visited {
+  color: white; 
+}
+
 .row {
   width: 100%;
   max-width: 1170px;
