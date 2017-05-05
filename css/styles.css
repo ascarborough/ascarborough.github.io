@@ -462,38 +462,6 @@ form {
   text-decoration: none;
   text-shadow: 2px 5px 8px #504d4d;
 }
-	
-	/* arrow animation */
-
-.arrow {
-	width: 3em;
-	margin: 1em auto 0 auto;
-	animation: bounce 2s ease-out infinite;
-}
-@keyframes bounce {
-	0% { 
-    margin-top: 1em; 
-  }
-  20% {
-    margin-top: 1.5em;
-  }
-  40% {
-    margin-top: 1.3em;
-  }
-  60% {
-    margin-top: 1.5em;
-  }
-  80% {
-    margin-top: 1.3em;
-  }
- 100% { 
-   margin-top: 1em; 
-  }
-}
-
-/* end of animation  */
-
-  
   .here {
   margin-left: 150px;
   margin-top: 700px;
