@@ -244,7 +244,7 @@ a:link {
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
 button {
-  background-color: purple; 
+  background-color: #662c82; 
   height: 40px;
   border-radius: 10px;
   border: none; 
@@ -253,7 +253,8 @@ button {
 }
 
 button:hover {
-  background-color: violet; 
+  color: #662c82;
+  background-color: white; 
   transition: background-color 1s;
 }
 
