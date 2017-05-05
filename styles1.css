@@ -11,6 +11,10 @@ body {
 
 /* Typography Styling */
 
+.white h1 {
+	color: white; 
+}
+
 h1 {
   color: black;
   font-weight: normal;
