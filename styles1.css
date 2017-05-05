@@ -261,6 +261,40 @@ button:hover {
 /* Mobile: 320px = 20em */
 @media screen and (min-width: 35em) { 
 
+    /* Navigation Bar Styling Mobile */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+li {
+    font-family: 'Vollkorn', serif;
+    float: left;
+    display: flex; 
+    font-size: 1.2em;
+   margin-top: 20px;
+  margin-right: 10px;
+}
+
+li a {
+    background-color: transparent;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+li a:hover {
+    background-color: rgba(100, 28, 126, 0.56);
+    transition: background 0.5s;
+    border-radius: 10px;
+}
+  
   .gallery ul li {
   float: left;
   margin: 0 0.87719%; 
