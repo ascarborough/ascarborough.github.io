@@ -94,6 +94,7 @@ h1 {
 a:link {
   color: white;
   text-decoration: none;
+  font-family: 'Dosis', sans-serif;
 }
 
 a:visited {
@@ -234,6 +235,7 @@ a:visited {
 .pdf {
   background-color:  #662c82;
   padding: 15px;
+  font-family: 'Dosis', sans-serif;
   border-radius: 10px; 
   margin-top: 15px; 
   font-size: 1.2em;
