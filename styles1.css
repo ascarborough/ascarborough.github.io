@@ -91,6 +91,11 @@ h1 {
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
 
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
 .row {
   width: 100%;
   max-width: 1170px;
