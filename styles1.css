@@ -12,7 +12,7 @@ body {
 /* Typography Styling */
 
 h1 {
-  color: white;
+  color: black;
   font-weight: normal;
   font-family: 'Dosis', sans-serif;
   font-size: 3em;
@@ -122,7 +122,7 @@ h1 {
 .gallery {
   padding: 40px 0 300px;
   position: relative;
-  overflow: hidden; }
+ }
   .gallery ul {
     padding-top: 50px;
     position: relative; }
@@ -302,7 +302,7 @@ li a:hover {
   .gallery {
   padding: 40px 0 300px;
   position: relative;
-  overflow: hidden; }
+   }
   .gallery ul {
     padding-top: 50px;
     position: relative; }
