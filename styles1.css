@@ -244,6 +244,10 @@ a:hover {
   color: #662c82; 
 }
 
+a:visited {
+  color: white; 
+}
+
 /* Mobile: 320px = 20em */
 @media screen and (min-width: 35em) { 
 
