@@ -108,20 +108,6 @@ h1 {
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
 
-body {
-  background-image: url("http://www.sleephappens.com/mattresswarehouse/wp-content/uploads/2016/05/ThinkstockPhotos-479045619.jpg"); 
-  background-attachment:fixed;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size:cover;
-}
-
-body {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  line-height: 1.5;
-  color: #333333; }
-
 a:link {
   color: white;
   text-decoration: none;
