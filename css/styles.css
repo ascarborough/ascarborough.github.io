@@ -286,7 +286,7 @@ form {
 }
 
 textarea {
-  width: 80%;
+  width: 90%;
 }
 
 form h1 {
@@ -304,7 +304,7 @@ input[type="text"] {
   border: 0;
   background: white;
   border-radius: 10px;
-  width: 70%;
+  width: 90%;
   margin: 0 auto 20px;
   font-family: 'Vollkorn', serif;
   font-size: 1em;
