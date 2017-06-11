@@ -247,6 +247,11 @@ a:visited {
   transition: background-color 1s;
 }
 
+.if {
+ color: gray; 
+  text-decoration: none; 
+} 
+
 /* Mobile: 320px = 20em */
 @media screen and (min-width: 35em) { 
 
