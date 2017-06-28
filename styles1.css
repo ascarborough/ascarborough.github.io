@@ -104,11 +104,12 @@ a:visited {
 }
 
 .row {
-  width: 100%;
+  width: 100%; 
   max-width: 1170px;
   margin: 0 auto;
   padding: 0;
-  clear: both; }
+  clear: both; 
+}
   
 .row img {
     max-width: 100%;
@@ -319,7 +320,7 @@ li a:hover {
     position: relative; }
     .gallery ul li {
       margin-bottom: 20px;
-      width: 23%;
+      width: 40%; 
       position: relative;
       list-style: none; }
       .gallery ul li a {
