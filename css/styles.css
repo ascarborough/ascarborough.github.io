@@ -2,12 +2,14 @@
 
 /* General Styling */
 body {
-  background-image: url("../img/bgimage.jpeg"); 
+  background-color: #a5b395; 
   background-attachment:fixed;
   background-position: center top;
   background-repeat: no-repeat;
   background-size:cover;
 }
+
+/* #a5b395 */ 
 
 /* Typography Styling */
 
@@ -392,6 +394,15 @@ input[type="submit"]:hover {
 
 /* Mobile: 320px = 20em */
 @media screen and (min-width: 35em) { 
+    
+    body {
+  background-image: url("../img/bgimage.jpeg"); 
+  background-attachment:fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
 	
 /* Navigation Bar Styling Mobile */
 ul {
